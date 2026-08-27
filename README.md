@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hermes Mission Control Dashboard
 
-## Getting Started
+A Vercel-deployed dashboard for tracking Hermes Agent workflows, goals, cron jobs, and system state.
 
-First, run the development server:
+## Architecture
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Hermes Agent (local) → POST /api/state → Vercel Serverless → Vercel KV → Next.js UI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Frontend**: Next.js 14 App Router, Tailwind CSS, deployed on Vercel
+- **Backend**: Vercel serverless API routes with Vercel KV (Redis) for persistence
+- **Data sync**: Hermes Agent pushes state updates via HTTP POST to `/api/state`
+- **Auth**: Optional — can be public or gated with simple token auth
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Mission Control Overview**: System health, active goals, recent activity
+- **Goals Tracking**: Long-running goals with phases, progress, status
+- **Agent Runs**: History of agent executions, status, duration
+- **Cron Jobs**: Scheduled tasks with next run time, last status
+- **Memory Wiki**: Browseable memory entries with tags and search
+- **Check-ins**: Morning check-in history and today's priority
+- **Skills**: Skill status, versions, improvement history
 
-## Learn More
+## Quick Start
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm install
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Set environment variables:
+```
+VERCEL_KV_REST_API_URL=
+VERCEL_KV_REST_API_TOKEN=
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+```bash
+vercel --prod
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Or connect the repo to Vercel and deploy automatically.

@@ -1,0 +1,5 @@
+{
+  "linters": {
+    "tailwindcss": true
+  }
+}

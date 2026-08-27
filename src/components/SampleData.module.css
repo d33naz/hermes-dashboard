@@ -1,0 +1,376 @@
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(42, 42, 58, 0.6);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoMark {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: #e4e4ed;
+}
+
+.logoSub {
+  font-size: 12px;
+  color: #8888a0;
+  margin-top: 2px;
+}
+
+.badge {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: #12121a;
+  border: 1px solid rgba(42, 42, 58, 0.6);
+  color: #8888a0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.badgeDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ffb800;
+  box-shadow: 0 0 6px #ffb800;
+  flex-shrink: 0;
+}
+
+/* Alert */
+.alert {
+  background: rgba(255, 184, 0, 0.08);
+  border: 1px solid rgba(255, 184, 0, 0.25);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.alertIcon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.alertText {
+  font-size: 13px;
+  color: #ffb800;
+  line-height: 1.5;
+}
+
+.alertText strong {
+  color: #fff;
+}
+
+/* Sections */
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sectionLabel {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #8888a0;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+/* Cards grid */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+/* Card */
+.card {
+  background: #12121a;
+  border: 1px solid rgba(42, 42, 58, 0.6);
+  border-radius: 10px;
+  padding: 18px;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.card:hover {
+  border-color: rgba(58, 58, 78, 0.8);
+  background: #1a1a24;
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e4e4ed;
+}
+
+.cardIcon {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+/* Status row */
+.statusRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.dotGreen {
+  background: #00d68f;
+  box-shadow: 0 0 6px #00d68f;
+}
+
+.dotAmber {
+  background: #ffb800;
+  box-shadow: 0 0 6px #ffb800;
+}
+
+.dotRed {
+  background: #ff4757;
+  box-shadow: 0 0 6px #ff4757;
+}
+
+.statusLabel {
+  font-size: 13px;
+  color: #e4e4ed;
+}
+
+.statusLabel strong {
+  font-weight: 600;
+}
+
+.statusMeta {
+  font-size: 12px;
+  color: #8888a0;
+  margin-bottom: 4px;
+}
+
+.goalPhase {
+  padding: 8px 10px;
+  background: rgba(108, 92, 231, 0.1);
+  border-radius: 6px;
+  font-size: 12px;
+  color: #a29bfe;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.progressTrack {
+  height: 4px;
+  background: #1e1e2a;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.progressBar {
+  height: 100%;
+  background: #6c5ce7;
+  border-radius: 2px;
+}
+
+.progressLabel {
+  font-size: 11px;
+  color: #8888a0;
+  text-align: right;
+}
+
+/* Job rows */
+.jobRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(42, 42, 58, 0.3);
+}
+
+.jobRow:last-child {
+  border-bottom: none;
+}
+
+.jobName {
+  font-size: 13px;
+  color: #e4e4ed;
+}
+
+.jobSchedule {
+  font-size: 11px;
+  color: #8888a0;
+  margin-top: 2px;
+}
+
+.jobSchedule em {
+  color: #ffb800;
+  font-style: normal;
+}
+
+/* Memory entries */
+.memEntry {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(42, 42, 58, 0.3);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.memEntry:last-child {
+  border-bottom: none;
+}
+
+.memTag {
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: rgba(108, 92, 231, 0.15);
+  color: #a29bfe;
+  flex-shrink: 0;
+}
+
+.memText {
+  color: #e4e4ed;
+  flex: 1;
+  min-width: 0;
+}
+
+.memDate {
+  font-size: 11px;
+  color: #8888a0;
+  flex-shrink: 0;
+}
+
+.wipe {
+  color: #8888a0;
+  font-size: 12px;
+  padding: 4px 0;
+}
+
+/* System grid */
+.sysTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #8888a0;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 8px;
+}
+
+.sysItem {
+  padding: 10px;
+  background: rgba(0, 214, 143, 0.04);
+  border-radius: 6px;
+  border: 1px solid rgba(0, 214, 143, 0.12);
+  margin-bottom: 6px;
+}
+
+.sysItem:last-child {
+  margin-bottom: 0;
+}
+
+.sysOff {
+  background: rgba(255, 71, 87, 0.04);
+  border-color: rgba(255, 71, 87, 0.12);
+}
+
+.sysLabel {
+  font-size: 11px;
+  color: #8888a0;
+}
+
+.sysValue {
+  font-weight: 600;
+  font-size: 13px;
+  color: #e4e4ed;
+  margin-top: 2px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(42, 42, 58, 0.6);
+  font-size: 11px;
+  color: #8888a0;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.footerLink {
+  color: #6c5ce7;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .badge {
+    align-self: flex-start;
+  }
+}
