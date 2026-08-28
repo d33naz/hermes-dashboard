@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-29T11:05:00.000000",
+    "updatedAt": "2026-08-29T11:10:00.000000",
     "goals": [
         {
             "id": "lead-gen-compliance",
@@ -46,8 +46,8 @@
             "schedule": "18:00 AWST daily",
             "nextRun": "2026-08-29T18:00:00+08:00",
             "status": "active",
-            "lastRun": "2026-08-27T18:35:58Z",
-            "lastStatus": "error"
+            "lastRun": "2026-08-29T11:05:00+08:00",
+            "lastStatus": "ok"
         },
         {
             "name": "Book Idea Validation Spreadsheet",
@@ -112,6 +112,18 @@
             "tagType": "dashboard",
             "text": "Dashboard audit complete: 5 JARVIS skills + 4 workflow patches + final verification checklist wired",
             "date": "2026-08-29"
+        },
+        {
+            "tag": "cron",
+            "tagType": "cron",
+            "text": "Outreach bundle cron re-created: 4f3c8e07622d, active, 06:00 AWST daily",
+            "date": "2026-08-29"
+        },
+        {
+            "tag": "cron",
+            "tagType": "cron",
+            "text": "End-of-day clean-up cron pinned: provider=nous, model=upstage/solar-pro4:free — model config drift resolved",
+            "date": "2026-08-29"
         }
     ],
     "system": {
@@ -160,8 +172,5 @@
             }
         ]
     },
-    "alerts": [
-        "liaizon-daily-outreach-bundle: paused (last error)",
-        "End-of-Day Clean-Up: error on last run"
-    ]
+    "alerts": []
 }
