@@ -1,150 +1,150 @@
 {
-  "updatedAt": "2026-08-27T15:17:15.614856",
-  "goals": [
-    {
-      "id": "lead-gen-compliance",
-      "title": "Lead Gen & Compliance System",
-      "icon": "\ud83c\udfaf",
-      "phase": "Phase 2 \u2014 Shadow Mode",
-      "status": "active",
-      "statusColor": "amber",
-      "meta": "DRY_RUN=true \u00b7 Ready for human-approved flag flips",
-      "detail": "Stability sprint queued: gaps 5\u20138 (model safety, rate limits, kill-switch, blocked-path observability)",
-      "progress": 65
-    },
-    {
-      "id": "book-production",
-      "title": "Book: \"She's Not Crazy, You're Just Not Listening\"",
-      "icon": "\ud83d\udcd6",
-      "phase": "Structural Review",
-      "status": "active",
-      "statusColor": "green",
-      "meta": "Gap report drafted \u00b7 Assets/QR codes in progress",
-      "detail": "Focus: structural soundness, embedded assets, presentation quality",
-      "progress": 45
-    }
-  ],
-  "cronJobs": [
-    {
-      "name": "Daily Lead Enrichment \u2014 Perth SMBs",
-      "schedule": "06:00 UTC daily",
-      "nextRun": "2026-08-28T06:00:00Z",
-      "status": "ok",
-      "lastRun": "2026-08-27T18:35:57Z",
-      "lastStatus": "ok"
-    },
-    {
-      "name": "liaizon-daily-outreach-bundle",
-      "schedule": "06:00 AWST daily",
-      "nextRun": "paused",
-      "status": "error",
-      "lastRun": "2026-07-26T17:58:08Z",
-      "lastStatus": "error"
-    },
-    {
-      "name": "End-of-Day Clean-Up",
-      "schedule": "18:00 AWST daily",
-      "nextRun": "2026-08-28T18:00:00+08:00",
-      "status": "error",
-      "lastRun": "2026-08-27T18:35:58Z",
-      "lastStatus": "error"
-    },
-    {
-      "name": "Book Idea Validation Spreadsheet",
-      "schedule": "09:00 AWST daily",
-      "nextRun": "paused",
-      "status": "paused",
-      "lastRun": "2026-06-26T09:01:27Z",
-      "lastStatus": "ok"
-    }
-  ],
-  "memory": [
-    {
-      "tag": "project",
-      "tagType": "project",
-      "text": "LiAIzon GHL locationId: fubLgMiUuFyD5C8wqch3 (verified)",
-      "date": "2026-08"
-    },
-    {
-      "tag": "pref",
-      "tagType": "pref",
-      "text": "Brand palette: #1a1a2e, #16213e, #e94560 \u00b7 dark mode for demos",
-      "date": "2026-08"
-    },
-    {
-      "tag": "policy",
-      "tagType": "policy",
-      "text": "Review-only/gated GHL imports until suppression checks, contact verification, decision-maker validation complete",
-      "date": "2026-08"
-    },
-    {
-      "tag": "outreach",
-      "tagType": "outreach",
-      "text": "Lead with workflow leakage and ROI, not generic AI automation",
-      "date": "2026-08"
-    },
-    {
-      "tag": "system",
-      "tagType": "system",
-      "text": "Shadow mode active \u00b7 safety sprint gaps 5\u20138 queued",
-      "date": "2026-08"
-    },
-    {
-      "tag": "deployed",
-      "tagType": "system",
-      "text": "Hermy HQ deployed to Vercel: dashboard-one-omega-kx8omboyjy.vercel.app",
-      "date": "2026-08-27"
-    }
-  ],
-  "system": {
-    "platform": [
-      {
-        "label": "Hermes Desktop",
-        "value": "Running \u00b7 Perth (AWST)",
-        "ok": true
-      },
-      {
-        "label": "Model",
-        "value": "Solar Pro 4",
-        "ok": true
-      },
-      {
-        "label": "Gateway",
-        "value": "Not running",
-        "ok": false
-      },
-      {
-        "label": "Cron Firing",
-        "value": "Deferred (gateway down)",
-        "ok": false
-      }
+    "updatedAt": "2026-08-29T10:55:00.000000",
+    "goals": [
+        {
+            "id": "lead-gen-compliance",
+            "title": "Lead Gen & Compliance System",
+            "icon": "\ud83c\udfaf",
+            "phase": "Phase 2 \u2014 Shadow Mode",
+            "status": "active",
+            "statusColor": "amber",
+            "meta": "DRY_RUN=true \u00b7 Ready for human-approved flag flips",
+            "detail": "Stability sprint queued: gaps 5\u20138 (model safety, rate limits, kill-switch, blocked-path observability)",
+            "progress": 65
+        },
+        {
+            "id": "book-production",
+            "title": "Book: \"She's Not Crazy, You're Just Not Listening\"",
+            "icon": "\ud83d\udcd6",
+            "phase": "Structural Review",
+            "status": "active",
+            "statusColor": "green",
+            "meta": "Gap report drafted \u00b7 Assets/QR codes in progress",
+            "detail": "Focus: structural soundness, embedded assets, presentation quality",
+            "progress": 45
+        }
     ],
-    "backend": [
-      {
-        "label": "HTTP",
-        "value": "Port 3002",
-        "ok": true
-      },
-      {
-        "label": "WebSocket",
-        "value": "Port 3003",
-        "ok": true
-      },
-      {
-        "label": "Pipeline",
-        "value": "06:00 UTC daily",
-        "ok": true
-      },
-      {
-        "label": "Mode",
-        "value": "Shadow \u00b7 DRY_RUN",
-        "ok": false
-      }
+    "cronJobs": [
+        {
+            "name": "Daily Lead Enrichment \u2014 Perth SMBs",
+            "schedule": "06:00 UTC daily",
+            "nextRun": "2026-08-28T06:00:00Z",
+            "status": "ok",
+            "lastRun": "2026-08-27T18:35:57Z",
+            "lastStatus": "ok"
+        },
+        {
+            "name": "liaizon-daily-outreach-bundle",
+            "schedule": "06:00 AWST daily",
+            "nextRun": "paused",
+            "status": "error",
+            "lastRun": "2026-07-26T17:58:08Z",
+            "lastStatus": "error"
+        },
+        {
+            "name": "End-of-Day Clean-Up",
+            "schedule": "18:00 AWST daily",
+            "nextRun": "2026-08-28T18:00:00+08:00",
+            "status": "error",
+            "lastRun": "2026-08-27T18:35:58Z",
+            "lastStatus": "error"
+        },
+        {
+            "name": "Book Idea Validation Spreadsheet",
+            "schedule": "09:00 AWST daily",
+            "nextRun": "paused",
+            "status": "paused",
+            "lastRun": "2026-06-26T09:01:27Z",
+            "lastStatus": "ok"
+        }
+    ],
+    "memory": [
+        {
+            "tag": "project",
+            "tagType": "project",
+            "text": "LiAIzon GHL locationId: fubLgMiUuFyD5C8wqch3 (verified)",
+            "date": "2026-08"
+        },
+        {
+            "tag": "pref",
+            "tagType": "pref",
+            "text": "Brand palette: #1a1a2e, #16213e, #e94560 \u00b7 dark mode for demos",
+            "date": "2026-08"
+        },
+        {
+            "tag": "policy",
+            "tagType": "policy",
+            "text": "Review-only/gated GHL imports until suppression checks, contact verification, decision-maker validation complete",
+            "date": "2026-08"
+        },
+        {
+            "tag": "outreach",
+            "tagType": "outreach",
+            "text": "Lead with workflow leakage and ROI, not generic AI automation",
+            "date": "2026-08"
+        },
+        {
+            "tag": "system",
+            "tagType": "system",
+            "text": "Shadow mode active \u00b7 safety sprint gaps 5\u20138 queued",
+            "date": "2026-08"
+        },
+        {
+            "tag": "deployed",
+            "tagType": "system",
+            "text": "Hermy HQ deployed to Vercel: dashboard-one-omega-kx8omboyjy.vercel.app",
+            "date": "2026-08-27"
+        }
+    ],
+    "system": {
+        "platform": [
+            {
+                "label": "Hermes Desktop",
+                "value": "Running \u00b7 Perth (AWST)",
+                "ok": true
+            },
+            {
+                "label": "Model",
+                "value": "Solar Pro 4",
+                "ok": true
+            },
+            {
+                "label": "Gateway",
+                "value": "Running \u00b7 PID 16940",
+                "ok": true
+            },
+            {
+                "label": "Cron Firing",
+                "value": "Active \u00b7 3 jobs scheduled",
+                "ok": true
+            }
+        ],
+        "backend": [
+            {
+                "label": "HTTP",
+                "value": "Port 3002",
+                "ok": true
+            },
+            {
+                "label": "WebSocket",
+                "value": "Port 3003",
+                "ok": true
+            },
+            {
+                "label": "Pipeline",
+                "value": "06:00 UTC daily",
+                "ok": true
+            },
+            {
+                "label": "Mode",
+                "value": "Shadow \u00b7 DRY_RUN",
+                "ok": false
+            }
+        ]
+    },
+    "alerts": [
+        "liaizon-daily-outreach-bundle: paused (last error)",
+        "End-of-Day Clean-Up: error on last run",
+        "Test: GitHub\u2192Vercel sync working"
     ]
-  },
-  "alerts": [
-    "liaizon-daily-outreach-bundle: paused (last error)",
-    "End-of-Day Clean-Up: error on last run",
-    "Test: GitHub\u2192Vercel sync working"
-  ]
 }
