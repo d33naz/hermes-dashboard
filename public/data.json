@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-29T10:55:00.000000",
+    "updatedAt": "2026-08-29T11:00:00.000000",
     "goals": [
         {
             "id": "lead-gen-compliance",
@@ -62,7 +62,7 @@
         {
             "tag": "project",
             "tagType": "project",
-            "text": "LiAIzon GHL locationId: fubLgMiUuFyD5C8wqch3 (verified)",
+            "text": "LiAIzon GHL locationId: fubLgMiUuFyD5C8wqch3",
             "date": "2026-08"
         },
         {
@@ -94,6 +94,24 @@
             "tagType": "system",
             "text": "Hermy HQ deployed to Vercel: dashboard-one-omega-kx8omboyjy.vercel.app",
             "date": "2026-08-27"
+        },
+        {
+            "tag": "cron",
+            "tagType": "cron",
+            "text": "End-of-Day Clean-Up cron pinned: provider=nous, model=upstage/solar-pro4:free",
+            "date": "2026-08-29"
+        },
+        {
+            "tag": "cron",
+            "tagType": "cron",
+            "text": "liaizon-daily-outreach-bundle cron missing from Hermes cron list \u2014 re-create with correct schedule",
+            "date": "2026-08-29"
+        },
+        {
+            "tag": "dashboard",
+            "tagType": "dashboard",
+            "text": "Dashboard audit complete: 5 JARVIS skills + 4 workflow patches + final verification checklist wired",
+            "date": "2026-08-29"
         }
     ],
     "system": {
