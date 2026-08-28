@@ -144,7 +144,6 @@
     },
     "alerts": [
         "liaizon-daily-outreach-bundle: paused (last error)",
-        "End-of-Day Clean-Up: error on last run",
-        "Test: GitHub\u2192Vercel sync working"
+        "End-of-Day Clean-Up: error on last run"
     ]
 }
